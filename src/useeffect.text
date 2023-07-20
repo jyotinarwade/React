@@ -1,0 +1,18 @@
+The use effect hook aliows you to perform side effects
+in your components.Some ex. of side effect are:
+fetching data, directly updating the dom, setting up
+listensrs, and timers useEffect accept two arguments. the second argument is optionl.
+
+By using this Hook, you tell React that your componentsneeds to do something after render,
+React will remember the function you passed
+(we'll render to it as your "effect"), and call it later
+after performing the dom updates.
+
+
+Why we use fetch in useEffect?
+The useEffect hook will make the a network request optionlcomponent renderwhen that fetch 
+resolves it will set the response from the server to the local server 
+
+
+What are the three lifecycle methods of useEffect?
+The react lifecycle
